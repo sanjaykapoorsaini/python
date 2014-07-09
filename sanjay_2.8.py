@@ -19,6 +19,6 @@ def get_desired_data(file_obj):
     for result in results: print '{2} has highest share price in {1} {0} '.format(*result)                     # as per new format
 #----------------------------------------------------------------------
 if __name__ == "__main__":
-    csv_path = "TB_data_dictionary_2014-07-09.csv"
+    csv_path = "data_file.csv"
     f_obj = open(csv_path, "rb")
     get_desired_data(f_obj)
